@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
 }
-.contaner {
+.container {
     max-width: 1240px;
     margin: 0 auto;
 }
@@ -14,7 +14,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
-    min-width: 1440px;
+    max-width: 1440px;
     font-family: 'Manrope', sans-serif;
 }
 .logo {
@@ -411,4 +411,55 @@ hr {
     width: 1440px;
     margin: 0;
     padding: 0;
+}
+.footer {
+    background: #03174c;
+    width: 1440px;
+    padding-top: 70px;
+}
+ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.map {
+    display: flex;
+    align-items: center;
+    color: #f0f0f0;
+    margin-left: 55px;
+}
+.phone_1 {
+    display: flex;
+    align-items: center;
+}
+.phone_1 a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+.post {
+    display: flex;
+    align-items: center;
+    color: #f0f0f0;
+    margin-right: 55px;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.social li {
+    margin-right: 15px;
+}
+.rights {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 70px;
 }
