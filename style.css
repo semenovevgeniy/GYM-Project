@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
 }
-.contaner {
+.container {
     max-width: 1240px;
     margin: 0 auto;
 }
@@ -14,7 +14,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
-    min-width: 1440px;
+    max-width: 1440px;
     font-family: 'Manrope', sans-serif;
 }
 .logo {
@@ -426,6 +426,7 @@ ul li {
     display: flex;
     align-items: center;
     color: #f0f0f0;
+    margin-left: 55px;
 }
 .phone_1 {
     display: flex;
@@ -439,6 +440,7 @@ ul li {
     display: flex;
     align-items: center;
     color: #f0f0f0;
+    margin-right: 55px;
 }
 .wrapper {
     display: flex;
